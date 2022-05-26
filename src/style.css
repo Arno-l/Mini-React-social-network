@@ -1,0 +1,45 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#title {
+   justify-content: start;
+}
+
+
+.nav-link {
+    padding: 20px;
+    text-decoration: none;
+    justify-content: end;
+}
+
+label {
+    display: block;
+	padding: 15px;
+}
+
+.profil-input {
+    border-radius: 5px;
+    min-width: 220px;
+    min-height: 20px;
+}
+
+.registration-form {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.information {
+    margin-right: 40px;
+    margin-left: 40px;
+}
